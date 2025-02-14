@@ -1,0 +1,14 @@
+.dDropdown-menu {
+  display: none;
+  transition: ease-out 0.1s;
+}
+
+.dDropdown-menu.show {
+  display: block;
+  transform: opacity-100 scale-100;
+}
+
+.dDropdown-menu.hide {
+  display: none;
+  transform: opacity-0 scale-95;
+}
